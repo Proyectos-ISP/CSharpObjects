@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-using CSharpObjects.constants;
-
+﻿using CSharpObjects.constants;
 
 namespace CSharpObjects.classes
 {
@@ -20,27 +17,26 @@ namespace CSharpObjects.classes
             this.color = color;
             this.material = material;
             this.capacity_in_liters = capacity_in_liters;
-            this.Mode = Mode.Mid; // default mode
+            this.Mode = KettlerMode.Mid; // default mode
             this.water_temperature = 0;
             this.Power_state = false;
         }
 
         // Properties public fields
-        public Mode Mode { get; set; }
+        public KettlerMode Mode { get; set; }
         public bool Power_state { get; set; }
         public int water_temperature { get; set; }
 
 
         //methods
-        public bool Press_power_btn()
+        public void Press_power_btn()
         {
             this.Power_state = !Power_state;
             this.water_temperature = 0;
-            Console.WriteLine($"Electric Kettle is OFF.");
-            return Power_state;
+            Console.WriteLine($"Electric Kettle is {(Power_state ? "ON" : "OFF")}.");
         }
 
-        public void Change_mode(Mode Mode)
+        public void Change_mode(KettlerMode Mode)
         {
             if (this.Power_state)
             {
@@ -58,7 +54,7 @@ namespace CSharpObjects.classes
             if (this.Power_state)
             {
                 // Min 1 - 60 C° | Mid 2 - 85 C° | Max 3 - 100 C°
-                if(this.Mode == Mode.Min) { 
+                if(this.Mode == KettlerMode.Min) { 
                     while (this.water_temperature <= 60)
                     {
                         water_temperature++;
@@ -74,7 +70,7 @@ namespace CSharpObjects.classes
 
                     }
                 }
-                else if(this.Mode == Mode.Mid)
+                else if(this.Mode == KettlerMode.Mid)
                 {
                     while (this.water_temperature <= 85)
                     {

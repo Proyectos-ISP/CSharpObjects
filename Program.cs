@@ -7,9 +7,19 @@ internal class Program
     private static void Main(string[] args)
     {
         Kettle myKettle = new Kettle("Liliana", "Red", "Stainless Steel", 1.5);
-        myKettle.Press_power_btn();
-        myKettle.Change_mode(Mode.Max);
-        myKettle.heat_water();
+        Stereo myStereo = new Stereo("UX", "Black");
 
+
+        Console.WriteLine("-- ENCENDIDO --");
+        myStereo.Press_power_btn();
+        myStereo.change_mode(StereoMode.Radio);
+        myStereo.change_mode(StereoMode.Aux);
+        myStereo.connect_device_to_aux();
+        //myStereo.disconnect_device_to_aux();
+        myStereo.change_mode(StereoMode.CD);
+
+        Console.WriteLine("-- APAGADO --");
+        myStereo.Press_power_btn();
+        myStereo.change_mode(StereoMode.Radio);
     }
 }
