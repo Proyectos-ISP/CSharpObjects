@@ -1,0 +1,15 @@
+D:\Proyectos\ISP\Programacion I\CSharpObjects\bin\Debug\net8.0\CSharpObjects.exe
+D:\Proyectos\ISP\Programacion I\CSharpObjects\bin\Debug\net8.0\CSharpObjects.deps.json
+D:\Proyectos\ISP\Programacion I\CSharpObjects\bin\Debug\net8.0\CSharpObjects.runtimeconfig.json
+D:\Proyectos\ISP\Programacion I\CSharpObjects\bin\Debug\net8.0\CSharpObjects.dll
+D:\Proyectos\ISP\Programacion I\CSharpObjects\bin\Debug\net8.0\CSharpObjects.pdb
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.AssemblyInfoInputs.cache
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.AssemblyInfo.cs
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.csproj.CoreCompileInputs.cache
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.sourcelink.json
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.dll
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\refint\CSharpObjects.dll
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.pdb
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\CSharpObjects.genruntimeconfig.cache
+D:\Proyectos\ISP\Programacion I\CSharpObjects\obj\Debug\net8.0\ref\CSharpObjects.dll
